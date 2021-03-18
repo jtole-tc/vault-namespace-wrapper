@@ -6,4 +6,4 @@
 
 ### Example
 
-`ln -s VAULT_TOKEN="$(cat "$TOKENFILE")" VAULT_NAMESPACE="$NAMESPACE" exec "vault $*" ~/bin/vault-prod-namespace`
+`ln -s "${HOME}/projects/vault-wrapper/vault-wrapper.sh" ~/bin/vault-prod-namespace`
